@@ -9,6 +9,7 @@ public class ProfessorRoom : Room
     [SerializeField] private string _professorEmail;
     [SerializeField] private string _description;
 
+    public override BuildType BuildType => BuildType.Sala_de_professor;
 
     // Update is called once per frame
     void Update()

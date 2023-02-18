@@ -9,11 +9,17 @@ public abstract class Construction : MonoBehaviour
         [Header("Informações gerais")]
         [SerializeField] private string _name;
         [SerializeField] private List<string> _nicknames;
-        [Header("Infotmações do objeto")]
+        [Header("Informações do objeto")]
         [SerializeField] private Mesh _buildingModel;
         [SerializeField] private Transform _contructionLocation;
 
-    #endregion
+        
+        //Public Properties (para acesso das variaveis privadas)
+        public string Name => _name;
+        public List<string> Nicknames => _nicknames;
+        public abstract BuildType BuildType { get; }
+
+        #endregion
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +36,16 @@ public abstract class Construction : MonoBehaviour
     public virtual void GetConstructionList(){}
 
     public void HighlightConstruction(){
-        // Highlight Construction when is researched
+        Debug.Log("position: " + transform.position + '\n' + "Nome: " + Name);
     }
-    }
+}
+
+public enum BuildType
+{
+    Bloco,
+    Predio,
+    Sala_de_aula,
+    Laboratorio,
+    Sala_de_professor,
+    Sala_de_projeto,
+}

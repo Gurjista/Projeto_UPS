@@ -6,6 +6,8 @@ public class Block : Construction
 {
     [SerializeField] private List<Building> _buildings;
 
+    public override BuildType BuildType => BuildType.Bloco;
+
     public override void GetConstructionList(){
         Building[] auxBuildingsList;
         auxBuildingsList = GetComponentsInChildren<Building>();

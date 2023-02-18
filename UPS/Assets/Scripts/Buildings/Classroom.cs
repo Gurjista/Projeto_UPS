@@ -6,10 +6,14 @@ public class Classroom : Room
 {
     //[Header("informações aula")]
 
+    public override BuildType BuildType => BuildType.Sala_de_aula;
+
 
     // Update is called once per frame
     void Update()
     {
         
     }
+
+    
 }

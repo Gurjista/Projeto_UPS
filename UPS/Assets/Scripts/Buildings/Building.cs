@@ -13,6 +13,8 @@ public class Building : Construction
         
     }
 
+    public override BuildType BuildType => BuildType.Predio;
+
     public override void GetConstructionList(){
         Room[] auxRoomsList;
         auxRoomsList = GetComponentsInChildren<Room>();
