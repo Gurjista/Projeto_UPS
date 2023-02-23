@@ -1,27 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class NewMovementCamera : MonoBehaviour
 {
 
+    [SerializeField] public Transform Pos_obj;
     [SerializeField] private Camera Camera;
+    [SerializeField] CinemachineVirtualCamera vcam;
     [SerializeField] private Transform Camera_support;
+    [SerializeField] private float Min_zoom;
+    [SerializeField] private float Max_zoom;
+    [SerializeField] private float GO_Altura;
+    [SerializeField] private float Go_offset;
+    [SerializeField] private float _GOspeed;
+    [SerializeField] private int Min_x;
+    [SerializeField] private int Max_x;
+    [SerializeField] private int Min_z;
+    [SerializeField] private int Max_z;
+
 
     protected Plane Plane;
-    private Vector2 StartTouchPos0;
-    private Vector2 EndTouchPos0;
-    private Vector2 StartTouchPos1;
-    private Vector2 EndTouchPos1;
+
 
     private void Awake()
     {
         if (Camera == null)
             Camera = Camera.main;
+        
     }
 
     private void Update()
     {
+
+        
+        // Delimitar a translacao
+        if (Camera.transform.position.x > Max_x) Camera.transform.position = new Vector3(Max_x, Camera.transform.position.y, Camera.transform.position.z);
+        if (Camera.transform.position.x < Min_x) Camera.transform.position = new Vector3(Min_x, Camera.transform.position.y, Camera.transform.position.z);
+        if (Camera.transform.position.z > Max_z) Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Max_z);
+        if (Camera.transform.position.z < Min_z) Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Min_z);
 
         //Update Plane
         if (Input.touchCount >= 1)
@@ -54,63 +72,32 @@ public class NewMovementCamera : MonoBehaviour
             if (zoom == 0 || zoom > 10)
                 return;
 
-            //mover cam a metade do ray
-            Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+            //mover cam a metade do ray, caso onde esteja entre o max e min
+            if (Camera.transform.position.y > Min_zoom && Camera.transform.position.y < Max_zoom)
+            {
+                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+            }
+
+            // Caso a camera esteja abaixo do zoom minimo, permitindo so afastar o zoom
+            if(Camera.transform.position.y < Min_zoom && zoom < 1)
+            {
+                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+            }
+            // Caso a camera esteja acmida do zoom max, permitindo so aprox o zoom
+            if (Camera.transform.position.y > Max_zoom && zoom > 1)
+            {
+                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+            }
 
             if (pos2b != pos2)
-                Camera.transform.RotateAround(pos1, Plane.normal, Vector3.SignedAngle(pos2 - pos1, pos2b - pos1b, Plane.normal));
+            {
+                 Camera_support.transform.RotateAround(pos1, Plane.normal, Vector3.SignedAngle(pos2 - pos1, pos2b - pos1b, Plane.normal));
+            }
         }
-
-        //Angle
-        if (Input.touchCount >= 2)
-        {
-            Touch touch0 = Input.GetTouch(0);
-            Touch touch1 = Input.GetTouch(1);
-
-            if(touch0.phase == TouchPhase.Began)
-            {
-                StartTouchPos0 = touch0.position;
-            }
-
-            else if(touch0.phase == TouchPhase.Moved || touch0.phase == TouchPhase.Ended)
-            {
-                EndTouchPos0 = touch0.position;
-            }
-
-            if (touch1.phase == TouchPhase.Began)
-            {
-                StartTouchPos1 = touch1.position;
-            }
-
-            else if (touch1.phase == TouchPhase.Moved || touch1.phase == TouchPhase.Ended)
-            {
-                EndTouchPos1 = touch1.position;
-            }
-
-            
-            // Dedos indo para cima, camera para baixo
-            if(EndTouchPos0.y > StartTouchPos0.y && EndTouchPos1.y > StartTouchPos1.y)
-            {
-                if (Camera.transform.rotation.x > -20)
-                {
-                    Camera_support.transform.Rotate(new Vector3(-1, 0, 0));// Muda o suporte da camera em vez da camera em si
-                }
-            }
-
-            // Dedos indo para baixo, camera para cima
-            if (EndTouchPos0.y < StartTouchPos0.y && EndTouchPos1.y < StartTouchPos1.y)
-            {
-
-                if (Camera.transform.rotation.y < 20)
-                {
-                    Camera_support.transform.Rotate(new Vector3(1, 0, 0));// Muda o suporte da camera em vez da camera em si
-                }
-            }
-
-        }
-
-
     }
+
+
+
 
     protected Vector3 PlanePositionDelta(Touch touch)
     {
@@ -138,8 +125,4 @@ public class NewMovementCamera : MonoBehaviour
         return Vector3.zero;
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(transform.position, transform.position + transform.up);
-    }
 }
