@@ -13,24 +13,41 @@ namespace Search
         [SerializeField] private GameObject resultPrefab;
         [SerializeField] private GameObject contentArea;
         [SerializeField] private GameObject scrollView;
-        private GameObject[] _allResultsReferences;
+        private List<GameObject> _allResultsReferences = new List<GameObject>();
+        //private GameObject[] _allResultsReferences;
 
         private void Awake()
         {
             var constructions = FindObjectsOfType<Construction>();
-            _allResultsReferences = new GameObject[constructions.Length];
+            //_allResultsReferences = new GameObject[constructions.Length];
             int i = 0;
             foreach (var construction in constructions)
             {
                 var aux = Instantiate<GameObject>(resultPrefab, contentArea.transform);
 
                 aux.gameObject.name = construction.Name;
-                aux.GetComponentInChildren<TextMeshProUGUI>().text = construction.Name + " (" + construction.BuildType + ")";
+                aux.GetComponentInChildren<TextMeshProUGUI>().text = construction.Name + " - (" + construction.BuildType + ")";
                 aux.GetComponent<Button>().onClick.AddListener(construction.HighlightConstruction);
                 aux.GetComponent<Button>().onClick.AddListener(CloseScroll);
+
                 
-                _allResultsReferences[i] = aux;
+                
+                _allResultsReferences.Add(aux);
+                //_allResultsReferences[i] = aux;
                 i++;
+
+                if (construction.Nicknames != null)
+                {
+                    foreach (string nickname in construction.Nicknames)
+                    {
+                        aux.gameObject.name = nickname;
+                        aux.GetComponentInChildren<TextMeshProUGUI>().text = nickname + " - " + construction.Name + " - (" + construction.BuildType + ")";
+                        aux.GetComponent<Button>().onClick.AddListener(construction.HighlightConstruction);
+                        aux.GetComponent<Button>().onClick.AddListener(CloseScroll);
+                        _allResultsReferences.Add(aux);
+                    }
+                }
+
             }
         }
 

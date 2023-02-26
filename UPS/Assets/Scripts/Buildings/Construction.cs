@@ -9,9 +9,9 @@ public abstract class Construction : MonoBehaviour
         [Header("Informações gerais")]
         [SerializeField] private string _name;
         [SerializeField] private List<string> _nicknames;
-        [Header("Informações do objeto")]
-        [SerializeField] private Mesh _buildingModel;
-        [SerializeField] private Transform _contructionLocation;
+        
+        //informações do objeto
+        private Transform _contructionLocation;
 
         
         //Public Properties (para acesso das variaveis privadas)
@@ -24,11 +24,6 @@ public abstract class Construction : MonoBehaviour
     void Start()
     {
         _contructionLocation = gameObject.transform; 
-        if (_buildingModel != null)
-        {
-            GetComponent<MeshFilter>().mesh = _buildingModel;    
-        }
-
         GetConstructionList();
     }
 
