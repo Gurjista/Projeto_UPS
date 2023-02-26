@@ -1059,7 +1059,6 @@ MonoBehaviour:
   _name: A
   _nicknames:
   - Bangu
-  _buildings: []
 --- !u!1 &1514745517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1292,6 @@ MonoBehaviour:
   _name: A3
   _nicknames:
   - Bangu 3
-  _rooms: []
 --- !u!1 &1842976760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,7 +1794,6 @@ MonoBehaviour:
   _nicknames:
   - Bangu 2
   - Burgo
-  _rooms: []
 --- !u!1 &2091855969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,7 +1909,6 @@ MonoBehaviour:
   _name: A1
   _nicknames:
   - Papuda
-  _rooms: []
 --- !u!1001 &5712621568956799639
 PrefabInstance:
   m_ObjectHideFlags: 0

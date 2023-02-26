@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Building : Construction
 {
-    [SerializeField] private List<Room> _rooms;
+    private List<Room> _rooms;
 
 
     // Update is called once per frame
