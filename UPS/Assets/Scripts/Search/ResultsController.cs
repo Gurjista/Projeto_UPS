@@ -13,7 +13,7 @@ namespace Search
         [SerializeField] private GameObject resultPrefab;
         [SerializeField] private GameObject contentArea;
         [SerializeField] private GameObject scrollView;
-        private List<GameObject> _allResultsReferences = new List<GameObject>();
+        public List<GameObject> _allResultsReferences = new List<GameObject>();
         //private GameObject[] _allResultsReferences;
 
         private void Awake()
@@ -40,13 +40,16 @@ namespace Search
                 {
                     foreach (string nickname in construction.Nicknames)
                     {
-                        aux.gameObject.name = nickname;
-                        aux.GetComponentInChildren<TextMeshProUGUI>().text = nickname + " - " + construction.Name + " - (" + construction.BuildType + ")";
-                        aux.GetComponent<Button>().onClick.AddListener(construction.HighlightConstruction);
-                        aux.GetComponent<Button>().onClick.AddListener(CloseScroll);
-                        _allResultsReferences.Add(aux);
+                        var auxNicknames = Instantiate<GameObject>(resultPrefab, contentArea.transform);
+                        auxNicknames.gameObject.name = nickname;
+                        auxNicknames.GetComponentInChildren<TextMeshProUGUI>().text = nickname + " - " + construction.Name + " - (" + construction.BuildType + ")";
+                        auxNicknames.GetComponent<Button>().onClick.AddListener(construction.HighlightConstruction);
+                        auxNicknames.GetComponent<Button>().onClick.AddListener(CloseScroll);
+                        _allResultsReferences.Add(auxNicknames);
                     }
                 }
+
+                
 
             }
         }
