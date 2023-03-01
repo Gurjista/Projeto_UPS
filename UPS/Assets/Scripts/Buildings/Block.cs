@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Block : Construction
 {
-    private List<Building> _buildings;
+    [SerializeField] private List<Building> _buildings;
 
     public override BuildType BuildType => BuildType.Bloco;
 
