@@ -43,4 +43,7 @@ public enum BuildType
     Laboratorio,
     Sala_de_professor,
     Sala_de_projeto,
+    Banheiro,
+    Sala_de_administracao,
+    Sala_de_Manutencao
 }
