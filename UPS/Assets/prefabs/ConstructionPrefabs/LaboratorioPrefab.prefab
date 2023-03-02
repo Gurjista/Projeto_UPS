@@ -213,4 +213,6 @@ MonoBehaviour:
   - Apelidos Laboratorio
   _highlightCube: {fileID: 1701960559296647160}
   _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
+    type: 2}
   _laboratorySubject: "Mat\xE9ria do Laboratorio"

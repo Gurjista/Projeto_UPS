@@ -213,4 +213,6 @@ MonoBehaviour:
   - apelidos Sala projeto
   _highlightCube: {fileID: 2314489081261815068}
   _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
+    type: 2}
   _projectName: Nome Projeto
