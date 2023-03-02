@@ -211,3 +211,5 @@ MonoBehaviour:
   _name: "Nome Sala de administra\xE7\xE3o"
   _nicknames:
   - "apelido sala de administra\xE7\xE3o"
+  _highlightCube: {fileID: 3634478222573831502}
+  _upperConstruction: {fileID: 0}

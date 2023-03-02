@@ -9,6 +9,9 @@ public abstract class Construction : MonoBehaviour
         [Header("Informações gerais")]
         [SerializeField] private string _name;
         [SerializeField] private List<string> _nicknames;
+
+        [Header("Highlight na busca")]
+        [SerializeField] private GameObject _highlightCube;
         
         //informações do objeto
         private Transform _contructionLocation;
@@ -21,7 +24,7 @@ public abstract class Construction : MonoBehaviour
 
         #endregion
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         _contructionLocation = gameObject.transform; 
         GetConstructionList();

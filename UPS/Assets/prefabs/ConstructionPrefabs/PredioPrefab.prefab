@@ -211,4 +211,5 @@ MonoBehaviour:
   _name: Nome Predio
   _nicknames:
   - Apelidos Predio
+  _highlightCube: {fileID: 5502995211480757010}
   _rooms: []

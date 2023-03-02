@@ -211,3 +211,5 @@ MonoBehaviour:
   _name: Nome da sala de aula
   _nicknames:
   - Apelidos da sala de aula
+  _highlightCube: {fileID: 3634478222573831502}
+  _upperConstruction: {fileID: 0}

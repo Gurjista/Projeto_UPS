@@ -115,6 +115,8 @@ MonoBehaviour:
   _nicknames:
   - Sala do Professor
   - apelido sala do professor
+  _highlightCube: {fileID: 5505722869707492173}
+  _upperConstruction: {fileID: 0}
   _professorName: Nome do professor
   _professorEmail: Email Professor
   _description: 

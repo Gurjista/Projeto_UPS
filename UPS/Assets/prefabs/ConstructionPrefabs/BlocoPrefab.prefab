@@ -212,4 +212,5 @@ MonoBehaviour:
   _name: Nome Bloco
   _nicknames:
   - Apelidos do bloco
+  _highlightCube: {fileID: 2559069297504557869}
   _buildings: []

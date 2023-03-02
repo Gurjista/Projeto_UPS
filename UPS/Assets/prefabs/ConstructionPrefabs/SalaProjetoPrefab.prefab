@@ -211,4 +211,6 @@ MonoBehaviour:
   _name: Nome Sala projeto
   _nicknames:
   - apelidos Sala projeto
+  _highlightCube: {fileID: 2314489081261815068}
+  _upperConstruction: {fileID: 0}
   _projectName: Nome Projeto

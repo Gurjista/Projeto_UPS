@@ -211,4 +211,6 @@ MonoBehaviour:
   _name: Nome Laboratorio
   _nicknames:
   - Apelidos Laboratorio
+  _highlightCube: {fileID: 1701960559296647160}
+  _upperConstruction: {fileID: 0}
   _laboratorySubject: "Mat\xE9ria do Laboratorio"

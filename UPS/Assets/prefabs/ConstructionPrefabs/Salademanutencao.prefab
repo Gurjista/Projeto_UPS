@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 4505655593883205043}
   - component: {fileID: 4766939269515953284}
   m_Layer: 0
-  m_Name: SaladeManutencao
+  m_Name: Salademanutencao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,3 +211,5 @@ MonoBehaviour:
   _name: "Nome sala de manuten\xE7\xE3o"
   _nicknames:
   - "Apelido sala de manuten\xE7\xE3o"
+  _highlightCube: {fileID: 3634478222573831502}
+  _upperConstruction: {fileID: 0}

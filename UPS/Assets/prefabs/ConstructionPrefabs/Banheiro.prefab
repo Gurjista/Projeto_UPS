@@ -211,4 +211,6 @@ MonoBehaviour:
   _name: Nome da sala do banheiro
   _nicknames:
   - apelido do banheiro
+  _highlightCube: {fileID: 3634478222573831502}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
