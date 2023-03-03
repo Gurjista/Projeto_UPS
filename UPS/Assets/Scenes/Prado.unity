@@ -329,8 +329,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
+  _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 0}
   _projectName: 
 --- !u!1 &961425070
 GameObject:
@@ -528,8 +529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
+  _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 0}
   _professorName: 
   _professorEmail: 
   _description: 
@@ -649,8 +651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
   _buildings: []
 --- !u!1 &1514745517
 GameObject:
@@ -701,8 +702,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
+  _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 0}
   _laboratorySubject: 
 --- !u!65 &1514745520
 BoxCollider:
@@ -880,8 +882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
   _rooms: []
 --- !u!1 &1842976760
 GameObject:
@@ -995,8 +996,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
+  _upperConstruction: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 0}
   _laboratorySubject: 
 --- !u!1 &1937112817
 GameObject:
@@ -1111,8 +1113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
   _rooms: []
 --- !u!1 &2091855969
 GameObject:
@@ -1228,6 +1229,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _nicknames: []
-  _buildingModel: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  _contructionLocation: {fileID: 0}
+  _highlightCube: {fileID: 0}
   _rooms: []

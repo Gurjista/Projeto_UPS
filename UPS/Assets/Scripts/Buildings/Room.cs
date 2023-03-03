@@ -6,6 +6,7 @@ public abstract class Room : Construction
 {
     [Header("objeto a ficar transparente")]
     [SerializeField] private GameObject _upperConstruction;
+    [SerializeField] private Material _upperTranparentMaterial;
 
     private MeshRenderer _meshRenderer;
     
