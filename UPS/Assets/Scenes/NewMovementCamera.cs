@@ -33,17 +33,15 @@ public class NewMovementCamera : MonoBehaviour
 
     private void Update()
     {
-
-        
         // Delimitar a translacao
-        if (Camera.transform.position.x > Max_x) Camera.transform.position = new Vector3(Max_x, Camera.transform.position.y, Camera.transform.position.z);
-        if (Camera.transform.position.x < Min_x) Camera.transform.position = new Vector3(Min_x, Camera.transform.position.y, Camera.transform.position.z);
-        if (Camera.transform.position.z > Max_z) Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Max_z);
-        if (Camera.transform.position.z < Min_z) Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Min_z);
+        if (vcam.Follow.transform.position.x > Max_x) vcam.Follow.transform.position = new Vector3(Max_x, vcam.Follow.transform.position.y, vcam.Follow.transform.position.z);
+        if (vcam.Follow.transform.position.x < Min_x) vcam.Follow.transform.position = new Vector3(Min_x, vcam.Follow.transform.position.y, vcam.Follow.transform.position.z);
+        if (vcam.Follow.transform.position.z > Max_z) vcam.Follow.transform.position = new Vector3(vcam.Follow.transform.position.x, vcam.Follow.transform.position.y, Max_z);
+        if (vcam.Follow.transform.position.z < Min_z) vcam.Follow.transform.position = new Vector3(vcam.Follow.transform.position.x, vcam.Follow.transform.position.y, Min_z);
 
         //Update Plane
         if (Input.touchCount >= 1)
-            Plane.SetNormalAndPosition(transform.up, transform.position);
+            Plane.SetNormalAndPosition(Pos_obj.transform.up, Pos_obj.transform.position);
 
         var Delta1 = Vector3.zero;
         var Delta2 = Vector3.zero;
@@ -53,7 +51,7 @@ public class NewMovementCamera : MonoBehaviour
         {
             Delta1 = PlanePositionDelta(Input.GetTouch(0));
             if (Input.GetTouch(0).phase == TouchPhase.Moved)
-                Camera.transform.Translate(Delta1, Space.World);
+                vcam.Follow.transform.Translate(Delta1, Space.World);
         }
 
         //Pinch
@@ -73,20 +71,20 @@ public class NewMovementCamera : MonoBehaviour
                 return;
 
             //mover cam a metade do ray, caso onde esteja entre o max e min
-            if (Camera.transform.position.y > Min_zoom && Camera.transform.position.y < Max_zoom)
+            if (vcam.Follow.transform.position.y > Min_zoom && vcam.Follow.transform.position.y < Max_zoom)
             {
-                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+                vcam.Follow.transform.position = Vector3.LerpUnclamped(pos1, vcam.Follow.transform.position, 1 / zoom);
             }
 
-            // Caso a camera esteja abaixo do zoom minimo, permitindo so afastar o zoom
-            if(Camera.transform.position.y < Min_zoom && zoom < 1)
+            // Caso a vcam.Follow esteja abaixo do zoom minimo, permitindo so afastar o zoom
+            if(vcam.Follow.transform.position.y < Min_zoom && zoom < 1)
             {
-                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+                vcam.Follow.transform.position = Vector3.LerpUnclamped(pos1, vcam.Follow.transform.position, 1 / zoom);
             }
-            // Caso a camera esteja acmida do zoom max, permitindo so aprox o zoom
-            if (Camera.transform.position.y > Max_zoom && zoom > 1)
+            // Caso a vcam.Follow esteja acmida do zoom max, permitindo so aprox o zoom
+            if (vcam.Follow.transform.position.y > Max_zoom && zoom > 1)
             {
-                Camera.transform.position = Vector3.LerpUnclamped(pos1, Camera.transform.position, 1 / zoom);
+                vcam.Follow.transform.position = Vector3.LerpUnclamped(pos1, vcam.Follow.transform.position, 1 / zoom);
             }
 
             if (pos2b != pos2)
