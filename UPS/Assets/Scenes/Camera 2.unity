@@ -1718,6 +1718,7 @@ MonoBehaviour:
     m_Bits: 64
   zoomSens: 5
   rotateSens: 10
+  maxDistance: {x: 600, y: 100, z: 600}
   mainPlane: {fileID: 1379893283}
 --- !u!1 &1766402124
 GameObject:

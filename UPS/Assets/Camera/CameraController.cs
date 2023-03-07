@@ -12,6 +12,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float zoomSens;
     [SerializeField] private float rotateSens;
+    [SerializeField] private Vector3 maxDistance;
     
     [Header("O plano que contem o mapa")]
     public Transform mainPlane;
@@ -125,5 +126,9 @@ public class CameraController : MonoBehaviour
             mainPlane.transform.RotateAround(_center, Vector3.up, r);
             _rotAngle -= r;
         }
+
+        cmCamera.Follow.position = new Vector3(Mathf.Clamp(cmCamera.Follow.position.x, -maxDistance.x, maxDistance.x), 
+            Mathf.Clamp(cmCamera.Follow.position.y, 50, maxDistance.y),
+            Mathf.Clamp(cmCamera.Follow.position.z, -maxDistance.z, maxDistance.z));
     }
 }
