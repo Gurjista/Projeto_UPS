@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5570476675136814494}
   - component: {fileID: 6447756774781069509}
   - component: {fileID: 4753802816161071061}
+  - component: {fileID: 4831766878870515419}
   m_Layer: 5
   m_Name: MapButton
   m_TagString: Untagged
@@ -134,6 +135,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4831766878870515419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288607501496134417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c162e32ead47d2b49831761d52a32699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectRoom: 
+  _mapButton: {fileID: 4753802816161071061}
 --- !u!1 &5715117184269737522
 GameObject:
   m_ObjectHideFlags: 0
