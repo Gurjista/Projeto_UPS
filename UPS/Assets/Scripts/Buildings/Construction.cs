@@ -35,7 +35,7 @@ public abstract class Construction : MonoBehaviour
 
     public virtual void GetConstructionList(){}
 
-    public void HighlightConstruction()
+    public virtual void HighlightConstruction()
     {
         if (_camera == null) _camera = FindObjectOfType<CameraController>();
         var newPos = transform.position;

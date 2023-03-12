@@ -56,6 +56,8 @@ namespace Search
 
 
         #region Callbacks
+        
+        
         public void OnTypedCharacter(string value)
         {
             scrollView.SetActive(value.Length > 0);

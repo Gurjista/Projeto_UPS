@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18e6799b-cca3-444d-b033-ae0194882750" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/SelectController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SelectController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UPS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Camera/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Camera 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Camera 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sistema de Busca.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sistema de Busca.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/Classroom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/Classroom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/Construction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/Construction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buildings/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buildings/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Search/ResultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Search/ResultsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
