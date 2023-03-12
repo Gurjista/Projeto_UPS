@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float zoomSens;
     [SerializeField] private float rotateSens;
     [SerializeField] private Vector3 maxDistance;
+    [SerializeField] private Vector3 minDistance;
     
     [Header("O plano que contem o mapa")]
     public Transform mainPlane;
@@ -21,10 +24,17 @@ public class CameraController : MonoBehaviour
     private Vector3 _center;
     private Vector3 _movePos;
     private float _rotAngle;
+    private GraphicRaycaster GR;
+    private EventSystem ES;
+
+    public float selectDist;
+    public CinemachineVirtualCamera CmCamera => cmCamera;
     private void Awake()
     {
         //transform.LookAt(cmCamera.Follow);
         _lastT = new Touch[5];
+        GR = GameObject.Find("MainCanvas").GetComponent<GraphicRaycaster>();
+        ES = GameObject.Find("EventSystem").GetComponent<EventSystem>();
     }
 
     void Update()
@@ -43,6 +53,11 @@ public class CameraController : MonoBehaviour
         {
             if (_updateTouch)
             {
+                var p = new PointerEventData(ES);
+                p.position = Input.GetTouch(0).position;
+                var r = new List<RaycastResult>();
+                GR.Raycast(p, r);
+                if(r.Count > 0) return;
                 _updateTouch = false;
                 if (Input.touchCount == 1)
                 {
@@ -127,8 +142,8 @@ public class CameraController : MonoBehaviour
             _rotAngle -= r;
         }
 
-        cmCamera.Follow.position = new Vector3(Mathf.Clamp(cmCamera.Follow.position.x, -maxDistance.x, maxDistance.x), 
-            Mathf.Clamp(cmCamera.Follow.position.y, 50, maxDistance.y),
-            Mathf.Clamp(cmCamera.Follow.position.z, -maxDistance.z, maxDistance.z));
+        cmCamera.Follow.position = new Vector3(Mathf.Clamp(cmCamera.Follow.position.x, -minDistance.x, maxDistance.x), 
+            Mathf.Clamp(cmCamera.Follow.position.y, minDistance.y, maxDistance.y),
+            Mathf.Clamp(cmCamera.Follow.position.z, -minDistance.z, maxDistance.z));
     }
 }

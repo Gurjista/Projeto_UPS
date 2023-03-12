@@ -12,6 +12,8 @@ public abstract class Construction : MonoBehaviour
 
         [Header("Highlight na busca")]
         [SerializeField] private GameObject _highlightCube;
+
+        protected CameraController _camera;
         
         //informações do objeto
         private Transform _contructionLocation;
@@ -33,8 +35,13 @@ public abstract class Construction : MonoBehaviour
 
     public virtual void GetConstructionList(){}
 
-    public void HighlightConstruction(){
-        Debug.Log("position: " + transform.position + '\n' + "Nome: " + Name);
+    public void HighlightConstruction()
+    {
+        if (_camera == null) _camera = FindObjectOfType<CameraController>();
+        var newPos = transform.position;
+        newPos -= _camera.transform.forward.normalized * _camera.selectDist;
+        
+        _camera.CmCamera.Follow.position = newPos;
     }
 }
 
