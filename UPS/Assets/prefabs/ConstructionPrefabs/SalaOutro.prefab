@@ -115,7 +115,8 @@ MonoBehaviour:
   _nicknames: []
   _highlightCube: {fileID: 0}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
+  _upperTranparentMaterial: {fileID: 2100000, guid: b823be9ed039e44469711cdf790f1601,
+    type: 2}
 --- !u!1 &9170482016510129104
 GameObject:
   m_ObjectHideFlags: 0
