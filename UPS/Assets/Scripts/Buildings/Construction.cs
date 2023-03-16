@@ -58,5 +58,6 @@ public enum BuildType
     Sala_de_Manutencao,
     Auditorio,
     Outro,
-    Sala_Comum
+    Sala_Comum,
+    Ponto_De_Referencia
 }

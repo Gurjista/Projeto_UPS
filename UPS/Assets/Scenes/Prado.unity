@@ -217,6 +217,98 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &526306819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071368396706981267, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170675113887236206, guid: da31c7e367a197c4893b5291af0e1482,
+        type: 3}
+      propertyPath: m_Name
+      value: PontoDeReferenciaPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 835591401673892056, guid: da31c7e367a197c4893b5291af0e1482, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: da31c7e367a197c4893b5291af0e1482, type: 3}
+--- !u!1 &526306820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4170675113887236206, guid: da31c7e367a197c4893b5291af0e1482,
+    type: 3}
+  m_PrefabInstance: {fileID: 526306819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &526306821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526306820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56094d2795edebf4788782436e35eb3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: 
+  _nicknames: []
+  _highlightCube: {fileID: 0}
+  _buildings: []
 --- !u!1 &715858969
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,8 +422,8 @@ MonoBehaviour:
   _name: x1
   _nicknames: []
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 0}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
   _projectName: 
 --- !u!1 &961425070
 GameObject:
@@ -530,8 +622,8 @@ MonoBehaviour:
   _name: 
   _nicknames: []
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 0}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
   _professorName: 
   _professorEmail: 
   _description: 
@@ -703,8 +795,8 @@ MonoBehaviour:
   _name: 
   _nicknames: []
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 0}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
   _laboratorySubject: 
 --- !u!65 &1514745520
 BoxCollider:
@@ -997,8 +1089,8 @@ MonoBehaviour:
   _name: 
   _nicknames: []
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 0}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
   _laboratorySubject: 
 --- !u!1 &1937112817
 GameObject:
