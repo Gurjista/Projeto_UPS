@@ -55,5 +55,8 @@ public enum BuildType
     Sala_de_projeto,
     Banheiro,
     Sala_de_administracao,
-    Sala_de_Manutencao
+    Sala_de_Manutencao,
+    Auditorio,
+    Outro,
+    Sala_Comum
 }
