@@ -2646,6 +2646,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 61845971}
     m_Modifications:
+    - target: {fileID: 4534072652754801734, guid: 9d1f3048faf88b14c85f899c0a60e48f,
+        type: 3}
+      propertyPath: _upperConstruction
+      value: 
+      objectReference: {fileID: 1628478459}
+    - target: {fileID: 4534072652754801734, guid: 9d1f3048faf88b14c85f899c0a60e48f,
+        type: 3}
+      propertyPath: transparentMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
     - target: {fileID: 7849749014295253022, guid: 9d1f3048faf88b14c85f899c0a60e48f,
         type: 3}
       propertyPath: m_Name
@@ -7255,6 +7265,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 424a98d703d589c42a1bfbd3ed8b83b3,
     type: 3}
   m_PrefabInstance: {fileID: 666687915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1628478459 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 11479c7b9eef7e44b9737cee735d3537,
+    type: 3}
+  m_PrefabInstance: {fileID: 1935758232}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1681748301 stripped
 Transform:
