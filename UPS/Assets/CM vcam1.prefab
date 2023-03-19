@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5015127533317693328}
-  m_LocalRotation: {x: 0.3420201, y: -0, z: -0, w: 0.9396927}
+  m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
   m_LocalPosition: {x: 4.3, y: 38.2, z: -44.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -54,7 +54,9 @@ MonoBehaviour:
   zoomSens: 5
   rotateSens: 10
   maxDistance: {x: 600, y: 100, z: 600}
+  minDistance: {x: 600, y: 5, z: 600}
   mainPlane: {fileID: 0}
+  selectDist: 10
 --- !u!114 &5015127533317693334
 MonoBehaviour:
   m_ObjectHideFlags: 0

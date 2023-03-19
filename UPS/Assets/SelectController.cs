@@ -23,7 +23,7 @@ public class SelectController : MonoBehaviour
         x.gameObject.SetActive(false);
         GR = GameObject.Find("MainCanvas").GetComponent<GraphicRaycaster>();
         ES = GameObject.Find("EventSystem").GetComponent<EventSystem>();
-        cameraT = Camera.main.transform;
+        //cameraT = Camera.main.transform;
     }
 
     // Update is called once per frame
