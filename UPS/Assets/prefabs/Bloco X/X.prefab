@@ -258,7 +258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -308,9 +308,8 @@ MonoBehaviour:
   _name: X1102
   _nicknames: []
   _highlightCube: {fileID: 8738657716755638856}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &210220291220187089
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +474,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210266524867787854}
-  m_LocalRotation: {x: -0, y: -0.46597183, z: -0, w: 0.8847996}
+  m_LocalRotation: {x: 0, y: -0.46596968, z: 0, w: 0.8848007}
   m_LocalPosition: {x: -50.3, y: 0, z: -52.4}
   m_LocalScale: {x: 2.9220483, y: 1, z: 2.4589794}
   m_ConstrainProportionsScale: 0
@@ -564,8 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: X
-  _nicknames:
-  - Apelidos do bloco
+  _nicknames: []
   _highlightCube: {fileID: 2839154638640762968}
   _buildings: []
 --- !u!1 &289712394538609939
@@ -632,7 +630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -682,9 +680,8 @@ MonoBehaviour:
   _name: X1304
   _nicknames: []
   _highlightCube: {fileID: 7486638318478648649}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &353098567809361290
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +746,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -800,9 +797,8 @@ MonoBehaviour:
   _nicknames:
   - "Laborat\xF3rio de Transfer\xEAncia de Calor"
   _highlightCube: {fileID: 4016567633509051503}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _laboratorySubject: "Transfer\xEAncia de Calor"
 --- !u!1 &643588582209183368
 GameObject:
@@ -868,7 +864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -918,9 +914,8 @@ MonoBehaviour:
   _name: X1104
   _nicknames: []
   _highlightCube: {fileID: 3030282031493707424}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &844206762698272179
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,7 +980,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1035,9 +1030,8 @@ MonoBehaviour:
   _name: X1303
   _nicknames: []
   _highlightCube: {fileID: 7943832503961602008}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &1025167734824928721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1484,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1540,9 +1534,8 @@ MonoBehaviour:
   _name: X1103
   _nicknames: []
   _highlightCube: {fileID: 2339553421802822970}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &2015811482335516938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,7 +2279,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2337,9 +2330,8 @@ MonoBehaviour:
   _nicknames:
   - LEG
   _highlightCube: {fileID: 1025167734824928721}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &3258958197508189030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,7 +2687,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2745,9 +2737,8 @@ MonoBehaviour:
   _name: Banheiro Masculino X12 2
   _nicknames: []
   _highlightCube: {fileID: 3380372310093394574}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &4386276340064244082
 GameObject:
@@ -2941,9 +2932,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 764df10cc7af77b449730eff00cd4f86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Nome Predio
+  _name: X2
   _nicknames:
-  - Apelidos Predio
+  - Iceberg
+  - IEM
+  - "Instituto de engenharia mec\xE2ncia"
   _highlightCube: {fileID: 4641551923042099342}
   _rooms: []
 --- !u!1 &4575919169982407888
@@ -3010,7 +3003,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3060,9 +3053,8 @@ MonoBehaviour:
   _name: Banheiro para CadeiranteS X12 2
   _nicknames: []
   _highlightCube: {fileID: 3053094255394579017}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 2
 --- !u!1 &4641551921797493149
 GameObject:
@@ -3128,7 +3120,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3178,11 +3170,9 @@ MonoBehaviour:
   _name: "Yohan Al\xED D\xEDaz Mend\xE9z"
   _nicknames:
   - X2216
-  - "Yohan Al\xED D\xEDaz Mend\xE9z"
   _highlightCube: {fileID: 4641551923403759779}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Yohan Al\xED D\xEDaz Mend\xE9z"
   _professorEmail: yohan.g8@unifei.edu.br
   _description: 
@@ -3250,7 +3240,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3300,11 +3290,9 @@ MonoBehaviour:
   _name: Rafael Silva Freire
   _nicknames:
   - X2208
-  - Rafael Silva Freire
   _highlightCube: {fileID: 4641551922001179843}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Rafael Silva Freire
   _professorEmail: rafael.freire@unifei.edu.br
   _description: 
@@ -3566,7 +3554,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3614,12 +3602,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Masculino X23 3
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551923679832151}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &4641551921829282905
 GameObject:
@@ -3782,7 +3768,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3832,11 +3818,9 @@ MonoBehaviour:
   _name: Felipe de Souza Eloy
   _nicknames:
   - X2202
-  - Felipe de Souza Eloy
   _highlightCube: {fileID: 4641551922029309830}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Felipe de Souza Eloy
   _professorEmail: felipeeloy@unifei.edu.br
   _description: 
@@ -4098,7 +4082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4148,9 +4132,8 @@ MonoBehaviour:
   _name: X2219
   _nicknames: []
   _highlightCube: {fileID: 4641551921886649713}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551921886649713
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,7 +4295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4362,11 +4345,9 @@ MonoBehaviour:
   _name: "Marcelo Jos\xE9 Pirani"
   _nicknames:
   - X2318
-  - "Marcelo Jos\xE9 Pirani"
   _highlightCube: {fileID: 4641551923138216945}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Marcelo Jos\xE9 Pirani"
   _professorEmail: pirani@unifei.edu.br
   _description: 
@@ -4725,7 +4706,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4775,11 +4756,9 @@ MonoBehaviour:
   _name: Renata Neves Penha
   _nicknames:
   - X2207
-  - Renata Neves Penha
   _highlightCube: {fileID: 4641551921829282905}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Renata Neves Penha
   _professorEmail: rnp@unifei.edu.br
   _description: 
@@ -4944,7 +4923,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4994,11 +4973,9 @@ MonoBehaviour:
   _name: Gerson Avelino Fernandes
   _nicknames:
   - X2312
-  - Gerson Avelino Fernandes
   _highlightCube: {fileID: 4641551922117568113}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Gerson Avelino Fernandes
   _professorEmail: gersonfernandes@unifei.edu.br
   _description: 
@@ -5066,7 +5043,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5116,11 +5093,9 @@ MonoBehaviour:
   _name: Oscar Navarro Santos
   _nicknames:
   - X2110
-  - Oscar Navarro Santos
   _highlightCube: {fileID: 4641551923366517432}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Oscar Navarro Santos
   _professorEmail: onavarro@unifei.edu.br
   _description: 
@@ -5188,7 +5163,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5238,11 +5213,9 @@ MonoBehaviour:
   _name: "Carlos Eduardo Corr\xEAa Molina"
   _nicknames:
   - X2107
-  - "Carlos Eduardo Corr\xEAa Molina"
   _highlightCube: {fileID: 4641551923046477086}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Carlos Eduardo Corr\xEAa Molina"
   _professorEmail: molinaead@unifei.edu.br
   _description: 
@@ -5504,7 +5477,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5554,11 +5527,9 @@ MonoBehaviour:
   _name: Carolina Quintero Ramirez
   _nicknames:
   - X2215
-  - Carolina Quintero Ramirez
   _highlightCube: {fileID: 4641551921969296746}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Carolina Quintero Ramirez
   _professorEmail: carolqr@unifei.edu.br
   _description: 
@@ -5917,7 +5888,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5967,11 +5938,9 @@ MonoBehaviour:
   _name: Guilherme Ferreira Gomes
   _nicknames:
   - X2321
-  - Guilherme Ferreira Gomes
   _highlightCube: {fileID: 4641551923734950667}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Guilherme Ferreira Gomes
   _professorEmail: guilhermefergom@unifei.edu.br
   _description: 
@@ -6136,7 +6105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6186,11 +6155,9 @@ MonoBehaviour:
   _name: "rog\xE9rio Jos\xE9 da Silva"
   _nicknames:
   - X2301
-  - "Rog\xE9rio Jos\xE9 da Silva"
   _highlightCube: {fileID: 4641551922515802316}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Rog\xE9rio Jos\xE9 da Silva"
   _professorEmail: rogeriojs@unifei.edu.br
   _description: 
@@ -6452,7 +6419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6502,11 +6469,9 @@ MonoBehaviour:
   _name: Rodrigo Barbosa da F. Albuquerque
   _nicknames:
   - X2226
-  - Rodrigo Barbosa da F. Albuquerque
   _highlightCube: {fileID: 4641551922207118282}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Rodrigo Barbosa da F. Albuquerque
   _professorEmail: galegosigma@yahoo.com.br
   _description: 
@@ -6574,7 +6539,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6625,9 +6590,8 @@ MonoBehaviour:
   _nicknames:
   - Sala outro X21 2
   _highlightCube: {fileID: 4641551923578378239}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922260239964
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,7 +6656,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6742,11 +6706,9 @@ MonoBehaviour:
   _name: "Luiz Fernando Valad\xE3o Flores"
   _nicknames:
   - X2315
-  - "Luiz Fernando Valad\xE3o Flores"
   _highlightCube: {fileID: 4641551923718009704}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Luiz Fernando Valad\xE3o Flores"
   _professorEmail: valadao@unifei.edu.br
   _description: 
@@ -6911,7 +6873,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6960,12 +6922,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Angie Lizeth Espinosa Sarmiento
   _nicknames:
-  - Angie Lizeth Espinosa Sarmiento
   - X2214
   _highlightCube: {fileID: 4641551922218274612}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Angie Lizeth Espinosa Sarmiento
   _professorEmail: angieespinosa@unifei.edu.br
   _description: 
@@ -7033,7 +6993,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7084,9 +7044,8 @@ MonoBehaviour:
   _nicknames:
   - X2114
   _highlightCube: {fileID: 4641551922293902334}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922293902334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7248,7 +7207,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7298,11 +7257,9 @@ MonoBehaviour:
   _name: "Rog\xE9rio Fraundorf de Faria Coimbra"
   _nicknames:
   - X2205
-  - "Rog\xE9rio Fraundorf de Faria Coimbra"
   _highlightCube: {fileID: 4641551923370626422}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Rog\xE9rio Fraundorf de Faria Coimbra"
   _professorEmail: rogerio.coimbra@unifei.edu.br
   _description: 
@@ -7467,7 +7424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7519,9 +7476,8 @@ MonoBehaviour:
   - X2115
   - Silvio Renato Santana
   _highlightCube: {fileID: 4641551922099705023}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Silvio Renato Santana
   _professorEmail: silvio@unifei.edu.brsilvio@unifei.edu.br
   _description: (35) 3629 1055
@@ -7686,7 +7642,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7736,11 +7692,9 @@ MonoBehaviour:
   _name: Leonardo Kyo Kabayama
   _nicknames:
   - X2326
-  - Leonardo Kyo Kabayama
   _highlightCube: {fileID: 4641551922444606278}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Leonardo Kyo Kabayama
   _professorEmail: lkabayama@unifei.edu.br
   _description: 
@@ -7808,7 +7762,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7859,9 +7813,8 @@ MonoBehaviour:
   _nicknames:
   - X2101
   _highlightCube: {fileID: 4641551922390029958}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922390029958
 GameObject:
   m_ObjectHideFlags: 0
@@ -8023,7 +7976,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8075,11 +8028,9 @@ MonoBehaviour:
   - Daniel Thomazini
   - Maria Virginia Gelfuso
   - X2314
-  - Daniel Thomazini e Maria Virginia Gelfuso
   _highlightCube: {fileID: 4641551923584547007}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: 'Daniel Thomazini e Maria Virginia Gelfuso '
   _professorEmail: thomazini@unifei.edu.br e mvgelfuso@unifei.edu.br
   _description: 
@@ -8147,7 +8098,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8197,11 +8148,9 @@ MonoBehaviour:
   _name: Silmara Cristina Baldissera Kabayama
   _nicknames:
   - X2327
-  - Silmara Cristina Baldissera Kabayama
   _highlightCube: {fileID: 4641551922928816525}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Silmara Cristina Baldissera Kabayama
   _professorEmail: silbaldissera@unifei.edu.br
   _description: 
@@ -8463,7 +8412,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8513,9 +8462,8 @@ MonoBehaviour:
   _name: ' Sala de professores X23 3'
   _nicknames: []
   _highlightCube: {fileID: 4641551923287195477}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922463815397
 GameObject:
   m_ObjectHideFlags: 0
@@ -8774,7 +8722,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8827,9 +8775,8 @@ MonoBehaviour:
   - X2123
   - GEMEC
   _highlightCube: {fileID: 4641551923698790401}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _projectName: "PET Energia, Petr\xF3leo, G\xE1s e Meio Ambiente "
 --- !u!1 &4641551922515802316
 GameObject:
@@ -8992,7 +8939,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9040,12 +8987,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Feminino X21 1
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551922965113087}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &4641551922554057085
 GameObject:
@@ -9402,7 +9347,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9451,12 +9396,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: "Mar\xEDlia S\xF4nego"
   _nicknames:
-  - "Mar\xEDlia S\xF4nego"
   - X2313
   _highlightCube: {fileID: 4641551922463815397}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Mar\xEDlia S\xF4nego"
   _professorEmail: mrl.sonego@unifei.edu.br
   _description: 
@@ -9621,7 +9564,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9671,11 +9614,9 @@ MonoBehaviour:
   _name: Lourival de Oliveira Rodrigues Chaves
   _nicknames:
   - X2302
-  - Lourival de Oliveira Rodrigues Chaves
   _highlightCube: {fileID: 4641551922999722286}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Lourival de Oliveira Rodrigues Chaves
   _professorEmail: lourival.mendes@unifei.edu.br
   _description: 
@@ -9743,7 +9684,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9793,9 +9734,8 @@ MonoBehaviour:
   _name: SalaOutro X22 2
   _nicknames: []
   _highlightCube: {fileID: 4641551921817295371}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922705791335
 GameObject:
   m_ObjectHideFlags: 0
@@ -10054,7 +9994,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10104,9 +10044,8 @@ MonoBehaviour:
   _name: ' Sala de professores X22 2'
   _nicknames: []
   _highlightCube: {fileID: 4641551923016994348}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922765393725
 GameObject:
   m_ObjectHideFlags: 0
@@ -10268,7 +10207,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10318,11 +10257,9 @@ MonoBehaviour:
   _name: Juliano de Almeida Monte Mor
   _nicknames:
   - X2217
-  - Juliano de Almeida Monte Mor
   _highlightCube: {fileID: 4641551922705791335}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Juliano de Almeida Monte Mor
   _professorEmail: jmontemor@unifei.edu.br
   _description: 
@@ -10487,7 +10424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10537,11 +10474,9 @@ MonoBehaviour:
   _name: Marcelo Santiago de Sousa
   _nicknames:
   - X2206
-  - Marcelo Santiago de Sousa
   _highlightCube: {fileID: 4641551921851107144}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Marcelo Santiago de Sousa
   _professorEmail: marcelo.santiago@unifei.edu.br
   _description: 
@@ -10609,7 +10544,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10659,11 +10594,9 @@ MonoBehaviour:
   _name: 'Paulo Pereira Junior '
   _nicknames:
   - X2210
-  - 'Paulo Pereira Junior '
   _highlightCube: {fileID: 4641551922790753547}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: 'Paulo Pereira Junior '
   _professorEmail: paulopj@unifei.edu.br
   _description: 
@@ -10731,7 +10664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10781,9 +10714,8 @@ MonoBehaviour:
   _name: Sala outro X2 1
   _nicknames: []
   _highlightCube: {fileID: 4641551923074722869}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922822994869
 GameObject:
   m_ObjectHideFlags: 0
@@ -10848,7 +10780,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10898,11 +10830,9 @@ MonoBehaviour:
   _name: "Glauco Jos\xE9 Rodrigues "
   _nicknames:
   - X2204
-  - "Glauco Jos\xE9 Rodrigues "
   _highlightCube: {fileID: 4641551923497544348}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Glauco Jos\xE9 Rodrigues "
   _professorEmail: azevedoglauco@unifei.edu.br
   _description: 
@@ -11164,7 +11094,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11215,11 +11145,9 @@ MonoBehaviour:
   _nicknames:
   - "Secret\xE1ria do Curso de Administra\xE7\xE3o"
   - X2117
-  - "C\xE1ssia Cristina Goulart do Santos"
   _highlightCube: {fileID: 4641551922893769520}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922899942164
 GameObject:
   m_ObjectHideFlags: 0
@@ -11284,7 +11212,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11334,11 +11262,9 @@ MonoBehaviour:
   _name: Mirian de Lourdes Noronha M. Melo
   _nicknames:
   - X2311
-  - Mirian de Lourdes Noronha M. Melo
   _highlightCube: {fileID: 4641551923622165401}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Mirian de Lourdes Noronha M. Melo
   _professorEmail: mirianmottamelo@unifei.edu.br
   _description: 
@@ -11406,7 +11332,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11458,9 +11384,8 @@ MonoBehaviour:
   - Monitoria
   - X2106
   _highlightCube: {fileID: 4641551921876661215}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551922909801029
 GameObject:
   m_ObjectHideFlags: 0
@@ -11525,7 +11450,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11575,11 +11500,9 @@ MonoBehaviour:
   _name: "Andr\xE9 Garcia Chiarello"
   _nicknames:
   - X2220
-  - "Andr\xE9 Garcia Chiarello"
   _highlightCube: {fileID: 4641551922112149123}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Andr\xE9 Garcia Chiarello"
   _professorEmail: andrechiarello@unifei.edu.br
   _description: 
@@ -11647,7 +11570,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11697,11 +11620,9 @@ MonoBehaviour:
   _name: Janaina Cunha Vaz Albuquerque
   _nicknames:
   - X2201
-  - Janaina Cunha Vaz Albuquerque
   _highlightCube: {fileID: 4641551923365047226}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Janaina Cunha Vaz Albuquerque
   _professorEmail: janaina.iem@unifei.edu.br
   _description: 
@@ -12060,7 +11981,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12111,8 +12032,8 @@ MonoBehaviour:
   _nicknames:
   - X2124
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
 --- !u!1 &4641551922999722286
 GameObject:
   m_ObjectHideFlags: 0
@@ -12565,7 +12486,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12615,9 +12536,8 @@ MonoBehaviour:
   _name: SalaOutro X21 1
   _nicknames: []
   _highlightCube: {fileID: 4641551922129421692}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923042099342
 GameObject:
   m_ObjectHideFlags: 0
@@ -12876,7 +12796,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12926,11 +12846,9 @@ MonoBehaviour:
   _name: Waldir de Oliveira
   _nicknames:
   - X2228
-  - Waldir de Oliveira
   _highlightCube: {fileID: 4641551923096532742}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Waldir de Oliveira
   _professorEmail: waldir@unifei.edu.br
   _description: 
@@ -13095,7 +13013,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13145,11 +13063,9 @@ MonoBehaviour:
   _name: Gilbert Silva
   _nicknames:
   - X2308
-  - Gilbert Silva
   _highlightCube: {fileID: 4641551922765393725}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Gilbert Silva
   _professorEmail: gilbert@unifei.edu.br
   _description: 
@@ -13217,7 +13133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13267,11 +13183,9 @@ MonoBehaviour:
   _name: "Juan Jos\xE9 Garcia Pabon"
   _nicknames:
   - X2304
-  - "Juan Jos\xE9 Garcia Pabon"
   _highlightCube: {fileID: 4641551923013457143}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Juan Jos\xE9 Garcia Pabon"
   _professorEmail: jjgp@unifei.edu.br
   _description: 
@@ -13727,7 +13641,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13775,12 +13689,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Masculino X22 2
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551923131478921}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &4641551923143554015
 GameObject:
@@ -13943,7 +13855,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13993,11 +13905,9 @@ MonoBehaviour:
   _name: "Maria Luiza Grillo Ren\xF3"
   _nicknames:
   - X2306
-  - "Maria Luiza Grillo Ren\xF3"
   _highlightCube: {fileID: 4641551922577808428}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Maria Luiza Grillo Ren\xF3"
   _professorEmail: malureno@unifei.edu.br
   _description: 
@@ -14162,7 +14072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14212,11 +14122,9 @@ MonoBehaviour:
   _name: "Ant\xF4nio Augusto Ara\xFAjo Pinto da Silva"
   _nicknames:
   - X2307
-  - "Ant\xF4nio Augusto Ara\xFAjo Pinto da Silva"
   _highlightCube: {fileID: 4641551922598751053}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Ant\xF4nio Augusto Ara\xFAjo Pinto da Silva"
   _professorEmail: aaaps@unifei.edu.br
   _description: 
@@ -14381,7 +14289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14431,11 +14339,9 @@ MonoBehaviour:
   _name: Andreas Nascimento
   _nicknames:
   - X2309
-  - Andreas Nascimento
   _highlightCube: {fileID: 4641551923690306692}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Andreas Nascimento
   _professorEmail: andreas.nascimento@unifei.edu.br
   _description: 
@@ -14503,7 +14409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14553,11 +14459,9 @@ MonoBehaviour:
   _name: Bruno Silva de Sousa
   _nicknames:
   - X2209
-  - Bruno Silva de Sousa
   _highlightCube: {fileID: 4641551922005608463}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Bruno Silva de Sousa
   _professorEmail: bruno_s_sousa@unifei.edu.br
   _description: 
@@ -14625,7 +14529,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14676,9 +14580,8 @@ MonoBehaviour:
   _nicknames:
   - X2126
   _highlightCube: {fileID: 4641551923737539126}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923244695228
 GameObject:
   m_ObjectHideFlags: 0
@@ -14937,7 +14840,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14987,11 +14890,9 @@ MonoBehaviour:
   _name: Lucilena de Oliveira Rodrigues Chaves
   _nicknames:
   - X2320
-  - Lucilena de Oliveira Rodrigues Chaves
   _highlightCube: {fileID: 4641551923143554015}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Lucilena de Oliveira Rodrigues Chaves
   _professorEmail: lucilener@unifei.edu.br
   _description: 
@@ -15156,7 +15057,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15206,11 +15107,9 @@ MonoBehaviour:
   _name: Fagner Luis Goulart Dias
   _nicknames:
   - X2305
-  - Fagner Luis Goulart Dias
   _highlightCube: {fileID: 4641551923700836539}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Fagner Luis Goulart Dias
   _professorEmail: fagner@unifei.edu.br
   _description: 
@@ -15763,7 +15662,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15813,11 +15712,9 @@ MonoBehaviour:
   _name: Izabella Cristiny Caldas da Silva Paiva
   _nicknames:
   - X2116
-  - Izabella Cristiny Caldas da Silva Paiva
   _highlightCube: {fileID: 4641551923825853382}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Izabella Cristiny Caldas da Silva Paiva
   _professorEmail: izabellacaldas@unifei.edu.br
   _description: (35) 3629 1143
@@ -15885,7 +15782,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15935,11 +15832,9 @@ MonoBehaviour:
   _name: Ramiro Gustavo Ramirez Camucho
   _nicknames:
   - X2227
-  - Ramiro Gustavo Ramirez Camucho
   _highlightCube: {fileID: 4641551923244695228}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Ramiro Gustavo Ramirez Camucho
   _professorEmail: ramirez@unifei.edu.br
   _description: 
@@ -16104,7 +15999,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16154,11 +16049,9 @@ MonoBehaviour:
   _name: Renata Machado Soares
   _nicknames:
   - X2113
-  - Renata Machado Soares
   _highlightCube: {fileID: 4641551922844216574}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Renata Machado Soares
   _professorEmail: renatasoares@unifei.edu.br
   _description: (35) 3629 1052
@@ -16323,7 +16216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16373,11 +16266,9 @@ MonoBehaviour:
   _name: "H\xE9lio Jos\xE9 de Lima"
   _nicknames:
   - X2303
-  - "H\xE9lio Jos\xE9 de Lima"
   _highlightCube: {fileID: 4641551922749147171}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "H\xE9lio Jos\xE9 de Lima"
   _professorEmail: heliolima@unifei.edu.br
   _description: 
@@ -16445,7 +16336,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16495,11 +16386,9 @@ MonoBehaviour:
   _name: "Emanuely de Carvalho Sim\xE3o Silva"
   _nicknames:
   - X2112
-  - "Emanuely de Carvalho Sim\xE3o Silva"
   _highlightCube: {fileID: 4641551923870486693}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Emanuely de Carvalho Sim\xE3o Silva"
   _professorEmail: emanuely@unifei.edu.br
   _description: (35) 3629 1064
@@ -16664,7 +16553,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16714,11 +16603,9 @@ MonoBehaviour:
   _name: "Luiz Antonio Alc\xE2ntara Pereira"
   _nicknames:
   - X2212
-  - "Luiz Antonio Alc\xE2ntara Pereira"
   _highlightCube: {fileID: 4641551922175608377}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Luiz Antonio Alc\xE2ntara Pereira"
   _professorEmail: luizantp@unifei.edu.br
   _description: 
@@ -16786,7 +16673,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16836,11 +16723,9 @@ MonoBehaviour:
   _name: Sandro Matrevelle Marcondes de Lima e Silva
   _nicknames:
   - X2125
-  - Sandro Matrevelle Marcondes de Lima e Silva
   _highlightCube: {fileID: 4641551923102348106}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Sandro Matrevelle Marcondes de Lima e Silva
   _professorEmail: metrevel@unifei.edu.br
   _description: 
@@ -17102,7 +16987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17152,11 +17037,9 @@ MonoBehaviour:
   _name: Ex sala do Rubenildo
   _nicknames:
   - X2319
-  - Ex sala do Rubenildo
   _highlightCube: {fileID: 4641551923000189161}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Ex sala do Rubenildo
   _professorEmail: ruben@unifei.edu.br
   _description: 
@@ -17224,7 +17107,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17272,12 +17155,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Feminino X22 2
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551923340645168}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &4641551923593964956
 GameObject:
@@ -17343,7 +17224,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17393,11 +17274,9 @@ MonoBehaviour:
   _name: "Sebasti\xE3o Sim\xF4es Cunha J\xFAnior"
   _nicknames:
   - X2221
-  - "Sebasti\xE3o Sim\xF4es Cunha J\xFAnior"
   _highlightCube: {fileID: 4641551923721085537}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Sebasti\xE3o Sim\xF4es Cunha J\xFAnior"
   _professorEmail: sebas@unifei.edu.br
   _description: 
@@ -17465,7 +17344,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17515,11 +17394,9 @@ MonoBehaviour:
   _name: "Gen\xE9sio Jos\xE9 Menon"
   _nicknames:
   - X2316
-  - "Gen\xE9sio Jos\xE9 Menon"
   _highlightCube: {fileID: 4641551923649807400}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Gen\xE9sio Jos\xE9 Menon"
   _professorEmail: genesio@unifei.edu.br
   _description: 
@@ -17684,7 +17561,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17734,11 +17611,9 @@ MonoBehaviour:
   _name: "Jes\xFAs Antonio Garcia Sanchez"
   _nicknames:
   - X2218
-  - "Jes\xFAs Antonio Garcia Sanchez"
   _highlightCube: {fileID: 4641551923529674374}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Jes\xFAs Antonio Garcia Sanchez"
   _professorEmail: jesus@unifei.edu.br
   _description: 
@@ -17903,7 +17778,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17953,11 +17828,9 @@ MonoBehaviour:
   _name: Jean Carlo Cescon Pereira
   _nicknames:
   - X2203
-  - Jean Carlo Cescon Pereira
   _highlightCube: {fileID: 4641551923152153955}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Jean Carlo Cescon Pereira
   _professorEmail: cescon@unifei.edu.br
   _description: 
@@ -18122,7 +17995,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18172,11 +18045,9 @@ MonoBehaviour:
   _name: 'Nelson Manzanares Filho '
   _nicknames:
   - X2229
-  - 'Nelson Manzanares Filho '
   _highlightCube: {fileID: 4641551922319521023}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: 'Nelson Manzanares Filho '
   _professorEmail: nelson@unifei.edu.br
   _description: 
@@ -18244,7 +18115,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18294,11 +18165,9 @@ MonoBehaviour:
   _name: Antonio Carlos Ancelotti Junior
   _nicknames:
   - X2213
-  - Antonio Carlos Ancelotti Junior
   _highlightCube: {fileID: 4641551923474825710}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Antonio Carlos Ancelotti Junior
   _professorEmail: ancelotti@unifei.edu.br
   _description: 
@@ -18657,7 +18526,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18707,11 +18576,9 @@ MonoBehaviour:
   _name: "Ana L\xFAcia Fernandes de Lima e Silva"
   _nicknames:
   - X2109
-  - "Ana L\xFAcia Fernandes de Lima e Silva"
   _highlightCube: {fileID: 4641551922554057085}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Ana L\xFAcia Fernandes de Lima e Silva"
   _professorEmail: alfsilva@unifei.edu.br
   _description: 
@@ -19264,7 +19131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19315,9 +19182,8 @@ MonoBehaviour:
   _nicknames:
   - X2104
   _highlightCube: {fileID: 4641551923742832728}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923790585110
 GameObject:
   m_ObjectHideFlags: 0
@@ -19382,7 +19248,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19430,12 +19296,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Masculino X21 1
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551921815317481}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &4641551923797058540
 GameObject:
@@ -19501,7 +19365,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19551,11 +19415,9 @@ MonoBehaviour:
   _name: Geovani Rodrigues
   _nicknames:
   - X2310
-  - Geovani Rodrigues
   _highlightCube: {fileID: 4641551922089301344}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Geovani Rodrigues
   _professorEmail: grodrigues@unifei.edu.br
   _description: 
@@ -19623,7 +19485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19674,9 +19536,8 @@ MonoBehaviour:
   _nicknames:
   - X2103
   _highlightCube: {fileID: 4641551923807039229}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923807039229
 GameObject:
   m_ObjectHideFlags: 0
@@ -19838,7 +19699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19888,9 +19749,8 @@ MonoBehaviour:
   _name: ' Sala de professores X21 1'
   _nicknames: []
   _highlightCube: {fileID: 4641551923175749656}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923825853382
 GameObject:
   m_ObjectHideFlags: 0
@@ -20052,7 +19912,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20100,12 +19960,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Banheiro Feminino X23 3
-  _nicknames:
-  - apelido do banheiro
+  _nicknames: []
   _highlightCube: {fileID: 4641551922347998018}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &4641551923870486693
 GameObject:
@@ -20268,7 +20126,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20318,9 +20176,8 @@ MonoBehaviour:
   _name: SalaOutro X23 3
   _nicknames: []
   _highlightCube: {fileID: 4641551922504366283}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &4641551923884500996
 GameObject:
   m_ObjectHideFlags: 0
@@ -20385,7 +20242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20435,11 +20292,9 @@ MonoBehaviour:
   _name: Ricardo Risso Chaves
   _nicknames:
   - X2328
-  - Ricardo Risso Chaves
   _highlightCube: {fileID: 4641551922281997733}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Ricardo Risso Chaves
   _professorEmail: rrisso@unifei.edu.br
   _description: 
@@ -20507,7 +20362,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20557,11 +20412,9 @@ MonoBehaviour:
   _name: "Edmilson Otoni Corr\xEAa"
   _nicknames:
   - X2329
-  - "Edmilson Otoni Corr\xEAa"
   _highlightCube: {fileID: 4641551922443468941}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Edmilson Otoni Corr\xEAa"
   _professorEmail: ecotoni@unifei.edu.br
   _description: 
@@ -20629,7 +20482,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20679,11 +20532,9 @@ MonoBehaviour:
   _name: Christian Jeremi Coronado Rodriguez
   _nicknames:
   - X2317
-  - Christian Jeremi Coronado Rodriguez
   _highlightCube: {fileID: 4641551922607938861}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: Christian Jeremi Coronado Rodriguez
   _professorEmail: christian@unifei.edu.br
   _description: 
@@ -20751,7 +20602,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20801,11 +20652,9 @@ MonoBehaviour:
   _name: "Patr\xEDcia Silva Lopes Alexandrino"
   _nicknames:
   - X2211
-  - "Patr\xEDcia Silva Lopes Alexandrino"
   _highlightCube: {fileID: 4641551923332781695}
-  _upperConstruction: {fileID: 4386276340064244082}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _professorName: "Patr\xEDcia Silva Lopes Alexandrino"
   _professorEmail: patty_lauer@unifei.edu.br
   _description: 
@@ -20873,7 +20722,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20923,8 +20772,8 @@ MonoBehaviour:
   _name: 
   _nicknames: []
   _highlightCube: {fileID: 0}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
   _upperConstruction: {fileID: 0}
-  _upperTranparentMaterial: {fileID: 0}
 --- !u!1 &6203448858644777946
 GameObject:
   m_ObjectHideFlags: 0
@@ -21105,7 +20954,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21155,9 +21004,8 @@ MonoBehaviour:
   _name: Banheiro Masculino X11 1
   _nicknames: []
   _highlightCube: {fileID: 6902436489724141045}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &6638844749077556136
 GameObject:
@@ -21223,7 +21071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21273,9 +21121,8 @@ MonoBehaviour:
   _name: Banheiro Feminino X13 3
   _nicknames: []
   _highlightCube: {fileID: 80189694895766265}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &6902436489724141045
 GameObject:
@@ -21632,7 +21479,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21682,9 +21529,8 @@ MonoBehaviour:
   _name: X1302
   _nicknames: []
   _highlightCube: {fileID: 1322559965182909035}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &7361875511045263986
 GameObject:
   m_ObjectHideFlags: 0
@@ -21749,7 +21595,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21799,9 +21645,8 @@ MonoBehaviour:
   _name: Banheiro para Cadeirantes X13 3
   _nicknames: []
   _highlightCube: {fileID: 20861275857221915}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 2
 --- !u!1 &7465546266667081540
 GameObject:
@@ -21867,7 +21712,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21917,9 +21762,8 @@ MonoBehaviour:
   _name: X1203
   _nicknames: []
   _highlightCube: {fileID: 7176751024892114460}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &7486638318478648649
 GameObject:
   m_ObjectHideFlags: 0
@@ -22178,7 +22022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22228,9 +22072,8 @@ MonoBehaviour:
   _name: Banheiro Masculino X13 3
   _nicknames: []
   _highlightCube: {fileID: 3258958197508189030}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 0
 --- !u!1 &7943832503961602008
 GameObject:
@@ -22393,7 +22236,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22446,9 +22289,8 @@ MonoBehaviour:
   - Sala das Pranchetas
   - Prancheta
   _highlightCube: {fileID: 7539857689867097819}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
 --- !u!1 &8604293381962822060
 GameObject:
   m_ObjectHideFlags: 0
@@ -22513,7 +22355,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22563,9 +22405,8 @@ MonoBehaviour:
   _name: Banheiro Feminino X12 2
   _nicknames: []
   _highlightCube: {fileID: 2895153618057087551}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &8621895361209255897
 GameObject:
@@ -22631,7 +22472,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22682,9 +22523,8 @@ MonoBehaviour:
   _nicknames:
   - Peteme
   _highlightCube: {fileID: 2820591922838960689}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   _projectName: Nome Projeto
 --- !u!1 &8690874151857648362
 GameObject:
@@ -22750,7 +22590,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22800,9 +22640,8 @@ MonoBehaviour:
   _name: Banheiro Feminino X11 1
   _nicknames: []
   _highlightCube: {fileID: 1471158841145097961}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 1
 --- !u!1 &8738657716755638856
 GameObject:
@@ -23062,7 +22901,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e6968d7ce378c48bab598f5e795c84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23112,7 +22951,6 @@ MonoBehaviour:
   _name: Banheiro para CadeiranteS X11 1
   _nicknames: []
   _highlightCube: {fileID: 1366985978049717909}
-  _upperConstruction: {fileID: 210220291220187089}
-  _upperTranparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949,
-    type: 2}
+  transparentMaterial: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+  _upperConstruction: {fileID: 0}
   tipoBanheiro: 2
