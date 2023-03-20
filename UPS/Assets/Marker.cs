@@ -3,7 +3,8 @@ using UnityEngine;
 public class Marker : MonoBehaviour
 {
     [SerializeField] private Transform _cameraTransform; // referência para a transform da câmera
-    [SerializeField] private float _distanceThreshold = 10f; // distância a partir da qual o marcador é exibido
+    [SerializeField] private float _maxDistanceThreshold = 10f;
+    [SerializeField] private float _minDistanceThreshold = 10f; // distância a partir da qual o marcador é exibido
     [SerializeField] private float _maxSize = 5f; // tamanho máximo do marcador quando visto de perto
     [SerializeField] private float _minSize = 0.5f; // tamanho mínimo do marcador quando visto de longe
     [SerializeField] private Texture2D _markerTexture; // textura do marcador
@@ -29,7 +30,11 @@ public class Marker : MonoBehaviour
         float distance = Vector3.Distance(transform.position, _cameraTransform.position);
 
         // Verifica se o marcador deve ser exibido
-        if (distance > _distanceThreshold)
+        if (distance < _minDistanceThreshold)
+        {
+            _renderer.enabled = false; // esconde o marcador
+            return;
+        }else if (distance > _maxDistanceThreshold)
         {
             _renderer.enabled = false; // esconde o marcador
             return;
@@ -40,20 +45,21 @@ public class Marker : MonoBehaviour
         
 
         // Calcula o tamanho do marcador com base na distância da câmera
-        float size = Mathf.Lerp(_maxSize, _minSize, distance / _distanceThreshold);
+        float size = Mathf.Lerp(_maxSize, _minSize, distance / _minDistanceThreshold);
 
         // Define o tamanho do marcador
-        transform.localScale = new Vector3(size, size, size);
+        transform.localScale = new Vector3(size/2, size, size);
 
         // Rotaciona o marcador na direção da câmera
         //transform.LookAt(transform.position + _cameraTransform.rotation * Vector3.forward, _cameraTransform.rotation * Vector3.up);
 
         
 
-        transform.LookAt(Camera.main.transform.position);
+        transform.LookAt(_cameraTransform.position);
 
 
         transform.Rotate(90, 90, 90, Space.Self);
+        //
         
         //transform.rotation = new Vector3(transform.rotation.x, transform.rotation.y+90,transform.rotation.z+90);
 

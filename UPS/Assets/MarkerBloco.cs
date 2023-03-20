@@ -42,12 +42,12 @@ public class MarkerBloco : MonoBehaviour
         float size = Mathf.Lerp(_maxSize, _minSize, distance / _distanceThreshold);
 
         // Define o tamanho do marcador
-        transform.localScale = new Vector3(size, size, size);
+        transform.localScale = new Vector3(size/2, size, size);
 
         // Rotaciona o marcador na direção da câmera
         //transform.LookAt(transform.position + _cameraTransform.rotation * Vector3.forward, _cameraTransform.rotation * Vector3.up);
 
-        transform.LookAt(Camera.main.transform.position);
+        transform.LookAt( _cameraTransform.position);
 
 
         transform.Rotate(90, 90, 90, Space.Self);
