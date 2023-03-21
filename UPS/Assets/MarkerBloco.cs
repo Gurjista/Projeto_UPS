@@ -16,6 +16,7 @@ public class MarkerBloco : MonoBehaviour
     private void Start()
     {
         _renderer = GetComponent<Renderer>();
+
         _material = _renderer.material;
 
         // Configura o material com a textura do marcador
@@ -42,7 +43,7 @@ public class MarkerBloco : MonoBehaviour
         float size = Mathf.Lerp(_maxSize, _minSize, distance / _distanceThreshold);
 
         // Define o tamanho do marcador
-        transform.localScale = new Vector3(size/2, size, size);
+        transform.localScale = new Vector3(size * 6, size * 6, size * 6);
 
         // Rotaciona o marcador na direção da câmera
         //transform.LookAt(transform.position + _cameraTransform.rotation * Vector3.forward, _cameraTransform.rotation * Vector3.up);
