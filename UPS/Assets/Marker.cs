@@ -45,10 +45,10 @@ public class Marker : MonoBehaviour
         
 
         // Calcula o tamanho do marcador com base na distância da câmera
-        float size = Mathf.Lerp(_maxSize, _minSize, distance / _minDistanceThreshold);
+        float size = Mathf.Lerp(_maxSize, _minSize, distance / _maxDistanceThreshold);
 
         // Define o tamanho do marcador
-        transform.localScale = new Vector3(size/2, size, size);
+        transform.localScale = new Vector3(size*6, size * 6, size * 6);
 
         // Rotaciona o marcador na direção da câmera
         //transform.LookAt(transform.position + _cameraTransform.rotation * Vector3.forward, _cameraTransform.rotation * Vector3.up);
