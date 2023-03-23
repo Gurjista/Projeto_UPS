@@ -12,7 +12,8 @@ public class SelectController : MonoBehaviour
     public Action deselectCallback = null;
     public int maxDist;
     public Button x;
-    //public Button copy_email;
+    public Button copy_email;
+    public String ProfessorEmail;
 
     private GraphicRaycaster GR;
     private EventSystem ES;
@@ -22,7 +23,7 @@ public class SelectController : MonoBehaviour
     void Start()
     {
         x.gameObject.SetActive(false);
-        //copy_email.gameObject.SetActive(false);
+        copy_email.gameObject.SetActive(false);
         GR = GameObject.Find("MainCanvas").GetComponent<GraphicRaycaster>();
         ES = GameObject.Find("EventSystem").GetComponent<EventSystem>();
         //cameraT = Camera.main.transform;
@@ -54,7 +55,7 @@ public class SelectController : MonoBehaviour
         {
             deselectCallback?.Invoke();
             deselectCallback = null;
-            x.gameObject.SetActive(false); 
+            //x.gameObject.SetActive(false); 
             near = false;
         }
     }

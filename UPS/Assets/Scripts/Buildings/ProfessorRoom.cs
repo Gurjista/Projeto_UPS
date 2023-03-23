@@ -16,4 +16,18 @@ public class ProfessorRoom : Room
     {
         
     }
+
+    public override void HighlightConstruction()
+    {
+        base.HighlightConstruction();
+        gameObject.GetComponent<MeshRenderer>().enabled = true;
+        _previousMaterial = _upperConstruction.material;
+        _upperConstruction.material = transparentMaterial;
+        // _objMaterial = _meshRenderer.material;
+        // _meshRenderer.material = highlightMaterial;
+        _selectController = GameObject.Find("SelectedController").GetComponent<SelectController>();
+        _selectController.objSelected = transform;
+        _selectController.deselectCallback = Deselect;
+        _selectController.ProfessorEmail = _professorEmail;
+    }
 }
