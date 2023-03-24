@@ -79,7 +79,10 @@ public class SelectController : MonoBehaviour
 
         if (_copyEmailPressed)
         {
-            GUIUtility.systemCopyBuffer = ProfessorEmail;
+            if (ProfessorEmail != null)
+            {
+                GUIUtility.systemCopyBuffer = ProfessorEmail;
+            }
             _copyEmailPressed = false;
         }
     }
