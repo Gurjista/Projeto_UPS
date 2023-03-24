@@ -14,6 +14,8 @@ public class ProfessorRoom : Room
     // Update is called once per frame
     public override void Start() {
         base.Start();
+        _searchField = GameObject.Find("Search Field");
+        _projectField = GameObject.Find("Canvas");
         _meshRenderer = gameObject.GetComponent<MeshRenderer>();
         _meshRenderer.enabled = false;
         _previousMaterial = _upperConstruction.material;
@@ -24,7 +26,8 @@ public class ProfessorRoom : Room
     {
         base.HighlightConstruction();
         gameObject.GetComponent<MeshRenderer>().enabled = true;
-        
+        _searchField.SetActive(false);
+        _projectField.SetActive(false);
         _upperConstruction.material = transparentMaterial;
         // _objMaterial = _meshRenderer.material;
         // _meshRenderer.material = highlightMaterial;
@@ -39,5 +42,7 @@ public class ProfessorRoom : Room
         gameObject.GetComponent<MeshRenderer>().enabled = false;
         _upperConstruction.material = _previousMaterial;
         //_meshRenderer.material = _objMaterial;
+        _searchField.SetActive(true);
+        _projectField.SetActive(true);
     }
 }
