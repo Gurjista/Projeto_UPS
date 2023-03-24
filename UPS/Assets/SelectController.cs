@@ -42,6 +42,7 @@ public class SelectController : MonoBehaviour
             return;
         }
         if(x.gameObject.activeSelf == false) x.gameObject.SetActive(true); 
+        if(copy_email.gameObject.activeSelf == false) copy_email.gameObject.SetActive(true);
 
         var r = new List<RaycastResult>();
         if (Input.touchCount > 0)

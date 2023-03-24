@@ -22241,6 +22241,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89ff192c0802f1c4b80b2fa682373ca3, type: 3}
+--- !u!114 &1746264932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1746264932, guid: 38c3880589ceb3f4a8784315d7acb730,
+    type: 3}
+  m_PrefabInstance: {fileID: 2138905561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1747218594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26476,6 +26488,8 @@ MonoBehaviour:
   objSelected: {fileID: 0}
   maxDist: 100
   x: {fileID: 777805174}
+  copy_email: {fileID: 1746264932}
+  ProfessorEmail: 
 --- !u!4 &1992333319
 Transform:
   m_ObjectHideFlags: 0
@@ -27208,6 +27222,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1746264933, guid: 38c3880589ceb3f4a8784315d7acb730, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e1925b5458d8ca74298e57d9eeae9cee,
+        type: 3}
     - target: {fileID: 8628633162092826054, guid: 38c3880589ceb3f4a8784315d7acb730,
         type: 3}
       propertyPath: m_Pivot.x

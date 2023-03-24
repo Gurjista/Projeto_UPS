@@ -12,9 +12,12 @@ public class ProfessorRoom : Room
     public override BuildType BuildType => BuildType.Sala_de_professor;
 
     // Update is called once per frame
-    void Update()
-    {
+    public override void Start() {
+        base.Start();
+        _meshRenderer = gameObject.GetComponent<MeshRenderer>();
+        _meshRenderer.enabled = false;
         
+        _meshRenderer = GetComponent<MeshRenderer>();
     }
 
     public override void HighlightConstruction()
@@ -29,5 +32,12 @@ public class ProfessorRoom : Room
         _selectController.objSelected = transform;
         _selectController.deselectCallback = Deselect;
         _selectController.ProfessorEmail = _professorEmail;
+    }
+
+    public void Deselect()
+    {
+        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        _upperConstruction.material = _previousMaterial;
+        //_meshRenderer.material = _objMaterial;
     }
 }

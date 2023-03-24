@@ -4,14 +4,14 @@ using UnityEngine;
 
 public abstract class Room : Construction
 {
-    [SerializeField] private Material transparentMaterial;
+    [SerializeField] protected Material transparentMaterial;
     //[SerializeField] private Material highlightMaterial;
-    [SerializeField] private MeshRenderer _upperConstruction;
+    [SerializeField] protected MeshRenderer _upperConstruction;
 
-    private MeshRenderer _meshRenderer;
+    protected MeshRenderer _meshRenderer;
     
-    private SelectController _selectController;
-    private Material _previousMaterial;
+    protected SelectController _selectController;
+    protected Material _previousMaterial;
 
     public override void Start() {
         base.Start();
@@ -40,7 +40,7 @@ public abstract class Room : Construction
         _selectController.deselectCallback = Deselect;
     }
 
-    private void Deselect()
+    public void Deselect()
     {
         gameObject.GetComponent<MeshRenderer>().enabled = false;
         _upperConstruction.material = _previousMaterial;
