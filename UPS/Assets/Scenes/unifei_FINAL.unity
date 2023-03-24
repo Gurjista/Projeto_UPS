@@ -10030,6 +10030,21 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.1137255
       objectReference: {fileID: 0}
+    - target: {fileID: 133177633369006696, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.35686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 133177633369006696, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.20392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 133177633369006696, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.11372549
+      objectReference: {fileID: 0}
     - target: {fileID: 133177633423724635, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: m_Color.b
@@ -10568,7 +10583,7 @@ PrefabInstance:
     - target: {fileID: 1995040370920698314, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: _projectRoom
-      value: Kraken
+      value: Krakens
       objectReference: {fileID: 0}
     - target: {fileID: 1995040371062475116, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
@@ -10823,22 +10838,22 @@ PrefabInstance:
     - target: {fileID: 2001295310111048910, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 465.2371
+      value: 134.5506
       objectReference: {fileID: 0}
     - target: {fileID: 2001295310111048910, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 89.85303
+      value: 35.47522
       objectReference: {fileID: 0}
     - target: {fileID: 2001295310111048910, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0000038146973
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2001295310111048910, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -44.926514
+      value: -17.73761
       objectReference: {fileID: 0}
     - target: {fileID: 2001295310165391101, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
@@ -11139,6 +11154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.0009765625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661826977372615701, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3661826978935756385, guid: 1e6de33ffe1983d4db5a59aaf748abc5,
         type: 3}
