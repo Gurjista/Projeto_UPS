@@ -18,10 +18,12 @@ public class SelectController : MonoBehaviour
     private GraphicRaycaster GR;
     private EventSystem ES;
     private bool near;
+    private bool _xPressed = false;
     
     // Start is called before the first frame update
     void Start()
     {
+        ProfessorEmail = null;
         x.gameObject.SetActive(false);
         copy_email.gameObject.SetActive(false);
         GR = GameObject.Find("MainCanvas").GetComponent<GraphicRaycaster>();
@@ -42,7 +44,7 @@ public class SelectController : MonoBehaviour
             return;
         }
         if(x.gameObject.activeSelf == false) x.gameObject.SetActive(true); 
-        if(copy_email.gameObject.activeSelf == false) copy_email.gameObject.SetActive(true);
+        if(copy_email.gameObject.activeSelf == false && ProfessorEmail != null) copy_email.gameObject.SetActive(true);
 
         var r = new List<RaycastResult>();
         if (Input.touchCount > 0)
@@ -52,12 +54,22 @@ public class SelectController : MonoBehaviour
             GR.Raycast(p, r);
         }
 
-        if (r.Count > 0 || (cameraT.position - objSelected.position).magnitude > maxDist)
+        foreach (var item in r)
         {
+            if (item.gameObject.name == "StopSelectionButton")
+            {
+                _xPressed = true;
+            }
+        }
+
+        if (_xPressed || (cameraT.position - objSelected.position).magnitude > maxDist)
+        {
+            ProfessorEmail = null;
             deselectCallback?.Invoke();
             deselectCallback = null;
             //x.gameObject.SetActive(false); 
             near = false;
+            _xPressed = false;
         }
     }
 }
