@@ -63,7 +63,8 @@ namespace Search
             scrollView.SetActive(value.Length > 0);
             if(value.Length == 0) return;
 
-            var search = _allResultsReferences.Where(x => x.name.ToLower().Contains(value.ToLower()));
+            var search = _allResultsReferences.Where(x => x.name.ToLower().Contains(value.ToLower())).ToList();
+            //Where(x => x.name.ToLower().Contains(value.ToLower()));
             //StartsWith(value, true, CultureInfo.CurrentCulture));
             int num = 0;
             foreach (var result in _allResultsReferences)

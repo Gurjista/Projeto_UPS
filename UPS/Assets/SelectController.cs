@@ -19,7 +19,8 @@ public class SelectController : MonoBehaviour
     private EventSystem ES;
     private bool near;
     private bool _xPressed = false;
-    
+    private bool _copyEmailPressed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +60,9 @@ public class SelectController : MonoBehaviour
             if (item.gameObject.name == "StopSelectionButton")
             {
                 _xPressed = true;
+            }else if (item.gameObject.name == "CopyEmailButton")
+            {
+                _copyEmailPressed = true;
             }
         }
 
@@ -67,9 +71,16 @@ public class SelectController : MonoBehaviour
             ProfessorEmail = null;
             deselectCallback?.Invoke();
             deselectCallback = null;
-            //x.gameObject.SetActive(false); 
+            //x.gameObject.SetActive(false);
+            copy_email.gameObject.SetActive(false);
             near = false;
             _xPressed = false;
+        }
+
+        if (_copyEmailPressed)
+        {
+            GUIUtility.systemCopyBuffer = ProfessorEmail;
+            _copyEmailPressed = false;
         }
     }
 }

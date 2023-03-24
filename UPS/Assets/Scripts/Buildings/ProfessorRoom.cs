@@ -16,7 +16,7 @@ public class ProfessorRoom : Room
         base.Start();
         _meshRenderer = gameObject.GetComponent<MeshRenderer>();
         _meshRenderer.enabled = false;
-        
+        _previousMaterial = _upperConstruction.material;
         _meshRenderer = GetComponent<MeshRenderer>();
     }
 
@@ -24,7 +24,7 @@ public class ProfessorRoom : Room
     {
         base.HighlightConstruction();
         gameObject.GetComponent<MeshRenderer>().enabled = true;
-        _previousMaterial = _upperConstruction.material;
+        
         _upperConstruction.material = transparentMaterial;
         // _objMaterial = _meshRenderer.material;
         // _meshRenderer.material = highlightMaterial;
