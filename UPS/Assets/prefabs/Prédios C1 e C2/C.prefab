@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3391133358621708013}
   m_LocalRotation: {x: 0, y: 0.31424096, z: 0, w: 0.94934326}
   m_LocalPosition: {x: -39.8, y: -0.15359, z: 41.3}
-  m_LocalScale: {x: 2.1007683, y: 1.4374906, z: 3.4215834}
+  m_LocalScale: {x: 0.5251921, y: 0.35937265, z: 0.8553958}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4458620642496236062}
@@ -2061,6 +2061,11 @@ PrefabInstance:
       propertyPath: transparentMaterial
       value: 
       objectReference: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+    - target: {fileID: 2669812071366677241, guid: bf8a324664e768d4fb87bb58a9712eba,
+        type: 3}
+      propertyPath: _nicknames.Array.data[0]
+      value: LDC 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2669812071458631195, guid: bf8a324664e768d4fb87bb58a9712eba,
         type: 3}
       propertyPath: _upperConstruction
@@ -2211,6 +2216,11 @@ PrefabInstance:
       propertyPath: transparentMaterial
       value: 
       objectReference: {fileID: 2100000, guid: bde9c3c328f98ab4bbbe1a2d5bfa5949, type: 2}
+    - target: {fileID: 2669812073216501224, guid: bf8a324664e768d4fb87bb58a9712eba,
+        type: 3}
+      propertyPath: _nicknames.Array.data[0]
+      value: LDC 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2669812073335682264, guid: bf8a324664e768d4fb87bb58a9712eba,
         type: 3}
       propertyPath: _upperConstruction
