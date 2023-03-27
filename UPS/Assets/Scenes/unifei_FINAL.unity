@@ -31590,6 +31590,11 @@ PrefabInstance:
       objectReference: {fileID: 1768023954}
     - target: {fileID: 8613114991074596749, guid: 1f1f0f57f9cf2664e926a0d5487f026e,
         type: 3}
+      propertyPath: _name
+      value: Banheiro masculino B42 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613114991074596749, guid: 1f1f0f57f9cf2664e926a0d5487f026e,
+        type: 3}
       propertyPath: _upperConstruction
       value: 
       objectReference: {fileID: 1768023954}
@@ -32551,5 +32556,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 208107552}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 177.3101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 116.5173
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872024997833335048, guid: 6df76a1f3861efd47ae183ac4228b832,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -32.999756
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6df76a1f3861efd47ae183ac4228b832, type: 3}
