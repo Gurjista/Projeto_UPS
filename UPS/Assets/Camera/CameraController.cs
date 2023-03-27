@@ -16,6 +16,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float rotateSens;
     [SerializeField] private Vector3 maxDistance;
     [SerializeField] private Vector3 minDistance;
+    [SerializeField] private Transform _startingPoint;
     
     [Header("O plano que contem o mapa")]
     public Transform mainPlane;
@@ -145,5 +146,15 @@ public class CameraController : MonoBehaviour
         cmCamera.Follow.position = new Vector3(Mathf.Clamp(cmCamera.Follow.position.x, -minDistance.x, maxDistance.x), 
             Mathf.Clamp(cmCamera.Follow.position.y, minDistance.y, maxDistance.y),
             Mathf.Clamp(cmCamera.Follow.position.z, -minDistance.z, maxDistance.z));
+    }
+
+    private void OnTriggerExit(Collider other) {
+        if(other.gameObject.tag == "limit"){
+            var newPos = _startingPoint.transform.position;
+            newPos -= this.transform.forward.normalized * this.selectDist;
+        
+            this.CmCamera.Follow.position = newPos;
+            Debug.Log("check");
+        }
     }
 }
